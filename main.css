@@ -135,6 +135,12 @@
     margin: 0 auto;
     
 }
+.view-all{
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.709);
+        color: #BE489D;
+    }
+}
 .header-text{
     font-size:14px;
     text-align:center;
@@ -540,7 +546,7 @@
 }
 
 .articles-item {
-    height: 320px;
+    height: 335px;
     border: 1px solid rgba(177, 173, 173, 0.316);
     width: 100%;
     max-width: 280px;
@@ -718,11 +724,14 @@ margin:0 auto;
 }
 .support-subtext{
       text-align:center;
-    font-size:18px;
+    font-size:20px;
     padding:10px;
 }
 
-
+.store{
+    width:100%;
+    max-width:260px
+}
 /* ---------------------------------------------------------------------------media----------------------------------------------------------- */
 html,
 body {
@@ -747,7 +756,7 @@ swiper-container {
 }
 
 swiper-slide {
-    width: 220px;
+    width: 300px;
     margin: 35px 0;
     height: 246px;
     text-align: center;
@@ -756,7 +765,7 @@ swiper-slide {
     background: white;
     align-items: center;
     border-radius: 5px;
-    /* background: blue; */
+    /* background: #e9e7e7ff; */
 }
 
 swiper-slide img {
