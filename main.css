@@ -736,6 +736,7 @@
 /* PRODUCT.HTML */
 .products{
 padding:60px 0;
+
 }
 
 .product-section{
@@ -743,15 +744,17 @@ display:grid;
 grid-template-columns:300px 1fr;
 gap:40px;
 margin-bottom:80px;
+
 align-items:center;
 }
 
 .product-info img{
-width:120px;
+ background: #F9F9F9;
+width:170px;
 margin:20px 0;
 }
-
 .product-grid{
+    
 display:grid;
 grid-template-columns:repeat(4,1fr);
 gap:20px;
@@ -759,7 +762,9 @@ gap:20px;
 
 .card{
 border:1px solid #eee;
+background:white;
 padding:20px;
+height:220px;
 border-radius:12px;
 text-align:center;
 transition:0.3s;
@@ -771,13 +776,17 @@ box-shadow:0 10px 20px rgba(0,0,0,0.1);
 }
 
 .card img{
-width:100px;
-height:170px;
+width:auto;
+height:120px;
 margin-bottom:10px;
-background:white;
+background:transparent;
+}
+.card h4,p{
+    background:transparent;
 }
 
 .btn{
+    
 display:inline-block;
 margin-top:10px;
 color:#0071e3;
@@ -870,6 +879,69 @@ padding: 60px 0;
 }
 
 /* TRADE_IN.HTML */
+/* ----------- PAGE HERO ----------- */
+.page-hero{
+    /* background: linear-gradient(135deg,#f5f5f7,#ffffff); */
+    padding: 80px 20px;
+    text-align: center;
+    /* border-bottom: 1px solid #eee; */
+}
+
+.page-hero h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+}
+
+.page-hero p{
+    font-size: 18px;
+    color: #6e6e73;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* ----------- TRADE SECTION ----------- */
+
+.trade-content{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.trade-box{
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 16px;
+    /* border: 1px solid #eee; */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.trade-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.trade-box h3{
+    font-size: 26px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+.trade-box p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+
+
+/* ----------- RESPONSIVE ----------- */
+
 
 
 /* ===== Responsive ===== */
