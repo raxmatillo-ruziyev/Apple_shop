@@ -5,59 +5,82 @@
     <meta charset="UTF-8">
     <link rel="icon" href="./img/top-logo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./main.css">
-    <title>Apple Strore</title>
 
-
+    <title>Apple Store</title>
 </head>
 
 <body>
-    <!-- ----------------------------------------------navbar------------------------------------ -->
+
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container">
             <ul class="nav-list">
+
                 <li class="nav-item">
-                    <a href="/index.html" class="nav-link"><img class="logo" src="./img/top-logo.png" alt=""></a>
+                    <a href="/index.html" class="nav-link">
+                        <img class="logo" src="./img/top-logo.png" alt="logo">
+                    </a>
                     <a href="/index.html" class="nav-link">Apple Store</a>
                 </li>
+
                 <li class="nav-item">
                     <a href="/index.html" class="nav-link">Home</a>
                     <a href="/about.html" class="nav-link">About me</a>
                     <a href="/product.html" class="nav-link">Products</a>
                     <a href="/trade_in.html" class="nav-link">Trade-in</a>
                     <a href="/support.html" class="nav-link">Support</a>
+                </li>
 
-                </li>
                 <li class="nav-item">
-                    <button class="nav-menu"><i class="fa fa-align-justify"></i></button>
+                    <button class="nav-menu">
+                        <i class="fa fa-align-justify"></i>
+                    </button>
                 </li>
+
             </ul>
         </div>
+
         <hr class="top-hr">
     </nav>
-    <br>
-    <!-- ------------------------------------------header--------------------------------- -->
+
+    <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <div class="header-box">
-                <div class="header-left">
-                    <h1 class="header-title">Original Apple Products in Our Store</h1>
-                    <h5 class="header-subtitle">iPhone • iPad • MacBook • Apple Watch • AirPods</h5>
-                    <h5 class="header-text">
 
-                        <a class="header-text-link" href="./product.html"> Latest models at competitive prices →</a>
+            <div class="header-box">
+
+                <div class="header-left">
+
+                    <h1 class="header-title">
+                        Original Apple Products in Our Store
+                    </h1>
+
+                    <h5 class="header-subtitle">
+                        iPhone • iPad • MacBook • Apple Watch • AirPods
+                    </h5>
+
+                    <h5 class="header-text">
+                        <a class="header-text-link" href="./product.html">
+                            Latest models at competitive prices →
+                        </a>
                     </h5>
 
                     <div class="header-left-box">
                         <img class="header-img" src="./img/bg.jpg" alt="">
                     </div>
+
                 </div>
+
                 <div class="header-right">
-                    <!-- -----right-top--- -->
+
                     <div class="header-right-top">
 
                         <div class="hrt-right">
@@ -65,75 +88,103 @@
                         </div>
 
                         <div class="hrt-left">
+
                             <h3 class="header-list-title">MacBook Pro</h3>
-                            <p class="header-list-text">Supercharged performance. From $1299</p>
 
-                            <a href="./product.html"><button class="htr-btn"> View Details →</button></a>
+                            <p class="header-list-text">
+                                Supercharged performance. From $1299
+                            </p>
+
+                            <a href="./product.html">
+                                <button class="htr-btn">View Details →</button>
+                            </a>
+
                         </div>
-
 
                     </div>
-                    <!-- -----right-top--- -->
+
                     <div class="header-right-bottom">
+
                         <div class="header-right-left">
-                            <h2 class="header-right-left-title">Buy Now, Pay Later</h2>
-                            <p class="header-right-left-text">0% installment plans for 2, 4, or 6 months</p>
-                            <a class="hrl-btn" href="./product.html"> <button class="header-right-left-btn">Learn More
-                                    →</button></a>
+
+                            <h2 class="header-right-left-title">
+                                Buy Now, Pay Later
+                            </h2>
+
+                            <p class="header-right-left-text">
+                                0% installment plans for 2, 4, or 6 months
+                            </p>
+
+                            <a class="hrl-btn" href="./product.html">
+                                <button class="header-right-left-btn">
+                                    Learn More →
+                                </button>
+                            </a>
+
                         </div>
+
                         <div class="header-right-right">
                             <img class="right-img" src="./img/iphone-one.svg" alt="">
                         </div>
+
                     </div>
+
                 </div>
 
             </div>
+
         </div>
     </header>
-    <br>
-    <br>
+
+    <!-- MAIN -->
     <main>
 
-        <br>
-        <br>
-
+        <!-- SLIDER -->
         <section class="service">
             <div class="container">
+
                 <h2 class="service-title">Explore More Devices</h2>
-                <swiper-container class="mySwiper" loop="true" pagination="true" pagination-clickable="true">
-                    <swiper-slide><img class="slider-img" src="./img/iphone-three.svg" alt="">
+
+                <swiper-container class="mySwiper" loop="true" pagination="true">
+
+                    <swiper-slide>
+                        <img class="slider-img" src="./img/iphone-three.svg" alt="">
                         <h5 class="slider-title">iPhone 15</h5>
                     </swiper-slide>
-                    <swiper-slide><img class="slider-img" src="./img/mac1.jpeg" alt="">
-                        <h5 class="slider-title">Macbook Pro</h5>
+
+                    <swiper-slide>
+                        <img class="slider-img" src="./img/mac1.jpeg" alt="">
+                        <h5 class="slider-title">MacBook Pro</h5>
                     </swiper-slide>
 
-                    <swiper-slide><img class="slider-img" src="./img/ipad2.jpeg" alt="">
-                        <h5 class="slider-title"> iPad</h5>
+                    <swiper-slide>
+                        <img class="slider-img" src="./img/ipad2.jpeg" alt="">
+                        <h5 class="slider-title">iPad</h5>
                     </swiper-slide>
-                    <swiper-slide><img class="slider-img" src="./img/watch.jpeg" alt="">
-                        <h5 class="slider-title"> Apple Watch</h5>
+
+                    <swiper-slide>
+                        <img class="slider-img" src="./img/watch.jpeg" alt="">
+                        <h5 class="slider-title">Apple Watch</h5>
                     </swiper-slide>
-                    <swiper-slide><img class="slider-img" src="./img/quloqchin.webp" alt="">
-                        <h5 class="slider-title"> Apple AirPods Max </h5>
-                    </swiper-slide>
-                    <swiper-slide><img class="slider-img" src="./img/airpods.jpeg" alt="">
-                        <h5 class="slider-title">Airpods coverUltra </h5>
+
+                    <swiper-slide>
+                        <img class="slider-img" src="./img/quloqchin.webp" alt="">
+                        <h5 class="slider-title">AirPods Max</h5>
                     </swiper-slide>
 
                 </swiper-container>
 
-
-
             </div>
-
         </section>
-        <br>
-        <br>
+
+        <!-- ARTICLES -->
         <section class="articles">
             <div class="container">
+
                 <h2 class="articles-title">Latest Articles</h2>
+
                 <ul class="articles-list">
+
                     <li class="articles-item">
                         <img class="articles-img" src="./img/applethings.jpg" alt="">
                         <h4 class="articles-subtitle">How to Choose the Right Apple Device</h4>
@@ -146,8 +197,7 @@
                         <img class="articles-img" src="./img/airpro.webp" alt="">
                         <h4 class="articles-subtitle">MacBook Air vs MacBook Pro</h4>
                         <p class="articles-text">
-                            Compare performance, battery life, and features to find the perfect MacBook for work or
-                            study.
+                            Compare performance, battery life, and features.
                         </p>
                     </li>
 
@@ -155,7 +205,7 @@
                         <img class="articles-img" src="./img/oldnow.png" alt="">
                         <h4 class="articles-subtitle">How Our Trade-In Program Works</h4>
                         <p class="articles-text">
-                            Upgrade your device easily by trading in your old Apple product and receiving a discount.
+                            Upgrade your device easily by trading in your old Apple product.
                         </p>
                     </li>
 
@@ -163,94 +213,105 @@
                         <img class="articles-img" src="./img/iphoneeee.webp" alt="">
                         <h4 class="articles-subtitle">Tips to Protect Your Apple Devices</h4>
                         <p class="articles-text">
-                            Learn how to keep your iPhone, iPad, and MacBook secure with smart privacy and security
-                            practices.
+                            Learn how to keep your Apple devices secure.
                         </p>
                     </li>
+
                 </ul>
+
             </div>
         </section>
-        <br>
-        <br>
-      <section class="hero">
-  <div class="container">
+        <section class="hero">
+            <div class="container">
 
-    <div class="section-head">
-      <h1 class="section-title">Featured Products</h1>
-      <a class="view-all" href="/product.html">View all →</a>
-    </div>
+                <div class="section-head">
+                    <h1 class="section-title">Featured Products</h1>
+                    <a class="view-all" href="/product.html">View all →</a>
+                </div>
 
-    <div class="hero-box">
-      <div class="box-left">
-        <ul>
-          <li class="hero-item1">
-            <h2 class="hero-title">Apple Ecosystem</h2>
-            <img src="./img/store.webp" class="store" alt="Apple products">
-            <p class="hero-text">Discover top picks from our store</p>
-            <br>
-            <a class="hero-btn" href="/product.html">Shop Featured →</a>
-          </li>
-        </ul>
-      </div>
+                <div class="hero-box">
 
-      <div class="box-right">
-        <ul class="hero-list">
+                    <!-- LEFT -->
+                    <div class="box-left">
+                        <div class="hero-item1">
+                            <h2 class="hero-title">Apple Ecosystem</h2>
 
-          <li class="hero-item">
-            <img src="./img/iphone-21.svg" class="iphone-two" alt="iPhone 15 Pro">
-            <h4 class="hero-subtitle">iPhone 15 Pro</h4>
-            <h5 class="hero-info">Condition: New</h5>
-            <h5 class="hero-info">Storage: 256 GB</h5>
-            <h5 class="hero-info">Warranty: 12 months</h5>
-            <h5 class="hero-info">Delivery: 1–2 days</h5>
-            <p class="hero-price">From $999</p>
-          </li>
+                            <img src="./img/store.webp" class="store" alt="Apple products">
 
-          <li class="hero-item">
-            <img src="./img/air.webp" class="iphone-two" alt="MacBook Air">
-            <h4 class="hero-subtitle">MacBook Air</h4>
-            <h5 class="hero-info">Condition: New</h5>
-            <h5 class="hero-info">Chip: M2</h5>
-            <h5 class="hero-info">Warranty: 12 months</h5>
-            <h5 class="hero-info">Delivery: 1–3 days</h5>
-            <p class="hero-price">From $1099</p>
-          </li>
+                            <p class="hero-text">Discover top picks from our store</p>
+                            <br>
 
-          <li class="hero-item">
-            <img src="./img/ipad2.jpeg" class="iphone-two" alt="iPad Pro">
-            <h4 class="hero-subtitle">iPad Pro</h4>
-            <h5 class="hero-info">Condition: New</h5>
-            <h5 class="hero-info">Size: 11-inch</h5>
-            <h5 class="hero-info">Warranty: 12 months</h5>
-            <h5 class="hero-info">Delivery: 1–2 days</h5>
-            <p class="hero-price">From $799</p>
-          </li>
+                            <a class="hero-btn" href="/product.html">
+                                Shop Featured →
+                            </a>
+                        </div>
+                    </div>
 
-          <li class="hero-item">
-            <img src="./img/watch.jpeg" class="iphone-two" alt="Apple Watch">
-            <h4 class="hero-subtitle">Apple Watch</h4>
-            <h5 class="hero-info">Condition: New</h5>
-            <h5 class="hero-info">Series: 9</h5>
-            <h5 class="hero-info">Warranty: 12 months</h5>
-            <h5 class="hero-info">Delivery: 1–2 days</h5>
-            <p class="hero-price">From $399</p>
-          </li>
+                    <!-- RIGHT -->
+                    <div class="box-right">
 
-        </ul>
-      </div>
-    </div>
+                        <div class="hero-list">
 
-  </div>
-</section>
-<br>
-<br>
+                            <div class="hero-item">
+                                <img src="./img/iphone-21.svg" class="iphone-two" alt="iPhone 15 Pro">
+                                <h4 class="hero-subtitle">iPhone 15 Pro</h4>
+                                <p class="hero-info">Condition: New</p>
+                                <p class="hero-info">Storage: 256 GB</p>
+                                <p class="hero-info">Warranty: 12 months</p>
+                                <p class="hero-info">Delivery: 1–2 days</p>
+                                <p class="hero-price">From $999</p>
+                            </div>
+
+                            <div class="hero-item">
+                                <img src="./img/air.webp" class="iphone-two" alt="MacBook Air">
+                                <h4 class="hero-subtitle">MacBook Air</h4>
+                                <p class="hero-info">Condition: New</p>
+                                <p class="hero-info">Chip: M2</p>
+                                <p class="hero-info">Warranty: 12 months</p>
+                                <p class="hero-info">Delivery: 1–3 days</p>
+                                <p class="hero-price">From $1099</p>
+                            </div>
+
+                            <div class="hero-item">
+                                <img src="./img/ipad2.jpeg" class="iphone-two" alt="iPad Pro">
+                                <h4 class="hero-subtitle">iPad Pro</h4>
+                                <p class="hero-info">Condition: New</p>
+                                <p class="hero-info">Size: 11-inch</p>
+                                <p class="hero-info">Warranty: 12 months</p>
+                                <p class="hero-info">Delivery: 1–2 days</p>
+                                <p class="hero-price">From $799</p>
+                            </div>
+
+                            <div class="hero-item">
+                                <img src="./img/watch.jpeg" class="iphone-two" alt="Apple Watch">
+                                <h4 class="hero-subtitle">Apple Watch</h4>
+                                <p class="hero-info">Condition: New</p>
+                                <p class="hero-info">Series: 9</p>
+                                <p class="hero-info">Warranty: 12 months</p>
+                                <p class="hero-info">Delivery: 1–2 days</p>
+                                <p class="hero-price">From $399</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
+    <!-- FOOTER -->
     <footer class="footer">
+
         <div class="container">
+
             <div class="footer-grid">
 
                 <div class="footer-col">
-                    <img src="./img/top-logo.png" class="footer-img" alt="Apple Store Logo">
+                    <img src="./img/top-logo.png" class="footer-img" alt="">
                     <h4 class="footer-subtitle">
                         Your trusted destination for original Apple products
                     </h4>
@@ -275,62 +336,44 @@
 
                 <div class="footer-col">
                     <p class="footer-text">
-                        All product information on this website is for reference only
-                        and does not constitute a public offer.
+                        All product information on this website is for reference only.
                         Please confirm prices with our store.
                     </p>
                 </div>
 
             </div>
+
         </div>
+
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", () => {
+
             const swiperEl = document.querySelector('.mySwiper');
 
             Object.assign(swiperEl, {
-                spaceBetween: 10,
-                slidesPerView: 1,
+
+                spaceBetween: 20,
+
                 breakpoints: {
 
-                    220: {
-                        slidesPerView: 1,
-                        spaceBetween: 15,
-                    }, 320: {
-                        slidesPerView: 1,
-                        spaceBetween: 15,
-                    }, 420: {
-                        slidesPerView: 1,
-                        spaceBetween: 15,
-                    },
-                    520: {
-                        slidesPerView: 2,
-                        spaceBetween: 15,
-                    },
-                    820: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
-                    },
-                    1020: {
-                        slidesPerView: 4,
-                        spaceBetween: 30,
-                    },
-                    1220: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
-                    },
-                    1320: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
-                    },
-                    1420: {
-                        slidesPerView: 5,
-                        spaceBetween: 40,
-                    }
+                    320: { slidesPerView: 1 },
+
+                    640: { slidesPerView: 2 },
+
+                    768: { slidesPerView: 3 },
+
+                    1024: { slidesPerView: 4 },
+
+                    1280: { slidesPerView: 5 }
 
                 }
+
             });
+
         });
     </script>
 
